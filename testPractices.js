@@ -1,4 +1,12 @@
-function callback() {
-    console.log("3 seconds have passed");
+function waitFor3S(resolve) {
+    setTimeout(resolve, 3000);
 }
-setTimeout(3000, callback);
+function setTImeoutPromisified() {
+    return new Promise(waitFor3S);
+}
+function main() {
+    console.log("main is called");
+}
+
+setTImeoutPromisified(3000).then(main);
+setTimeout(main, 3000);
