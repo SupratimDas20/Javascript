@@ -9,3 +9,6 @@ console.log(myCreatedDate); // 23 Jan 2023
 
 let myCreatedDate1 = new Date("2023-01-23")
 console.log(myCreatedDate1); // 23 Jan 2023
+
+let myCreatedDate2 = new Date(2023, 0, 23, 5, 3)
+console.log(myCreatedDate2); // 23 Jan 2023 05:03:00
