@@ -15,3 +15,7 @@ console.log(myCreatedDate2); // 23 Jan 2023 05:03:00
 
 let myCreatedDate3 = new Date("01-14-2023")
 console.log(myCreatedDate3.toLocaleString());
+
+
+let myTimeStamp = Date.now()
+console.log(myTimeStamp); // current timestamp in milliseconds
