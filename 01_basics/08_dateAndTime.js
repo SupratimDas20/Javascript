@@ -19,3 +19,5 @@ console.log(myCreatedDate3.toLocaleString());
 
 let myTimeStamp = Date.now()
 console.log(myTimeStamp); // current timestamp in milliseconds
+
+console.log(myCreatedDate.getTime());
